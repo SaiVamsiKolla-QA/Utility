@@ -1,6 +1,8 @@
 # Test Automation Utilities
 
-A collection of reusable utility functions for test automation frameworks. These utilities provide common components for logging, configuration management, and screenshot capture, designed to be used with Python-based test automation projects.
+A collection of reusable utility functions for test automation frameworks. These utilities provide common components for
+logging, configuration management, and screenshot capture, designed to be used with Python-based test automation
+projects.
 
 ## Features
 
@@ -9,11 +11,9 @@ A collection of reusable utility functions for test automation frameworks. These
 * Configuration management with config.ini
 * Path resolution for consistent file locations
 
-
 ## Prerequisites
 
 * Python 3.9 or higher
-
 
 ## Methods
 
@@ -60,14 +60,9 @@ Utility/
 │   └── test_driver.py       # Unit tests for WebDriver utilities
 ├── logs/                    # Generated log files
 │   └── utility.log          # Main log file
-├── examples/                # Example usage of utilities
-│   ├── logging_example.py   # Example of logging implementation
-│   ├── config_example.py    # Example of config reading
-│   └── selenium_example.py  # Example of WebDriver utilities
+
 ├── docs/                    # Documentation
 │   ├── README.md            # Main documentation
-│   ├── logging.md           # Logging utilities documentation
-│   └── configuration.md     # Configuration utilities documentation
 ├── pyproject.toml           # Poetry configuration
 ├── poetry.lock              # Poetry lock file (generated)
 └── README.md                # Project overview

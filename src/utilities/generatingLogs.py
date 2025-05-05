@@ -1,6 +1,7 @@
 import logging
 import os
 
+
 def generate_logs():
     # Get base directory by going up one level from utilities
     base_dir = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
@@ -22,10 +23,11 @@ def generate_logs():
     )
     return logging.getLogger()
 
-logger=generate_logs()
+
+logger = generate_logs()
 logger.info("Program Execution Started")
-a=21
-b=31
+a = 21
+b = 31
 if a > b:
     print("Vamsi")
     logger.info("a is greater than b, hence Vamsi got printed in output")
